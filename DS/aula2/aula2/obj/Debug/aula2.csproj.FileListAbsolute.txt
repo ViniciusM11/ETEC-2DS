@@ -1,0 +1,7 @@
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\bin\Debug\aula2.exe.config
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\bin\Debug\aula2.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\bin\Debug\aula2.pdb
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\obj\Debug\aula2.csproj.AssemblyReference.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\obj\Debug\aula2.csproj.CoreCompileInputs.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\obj\Debug\aula2.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula2\aula2\obj\Debug\aula2.pdb
