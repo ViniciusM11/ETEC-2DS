@@ -1,0 +1,7 @@
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.exe.config
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.pdb
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.csproj.AssemblyReference.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.csproj.CoreCompileInputs.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\aula3\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.pdb
