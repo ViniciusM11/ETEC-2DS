@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 namespace ativ2_ds
 
 {
+    // Classe Turma
 
     class Turma
 
@@ -20,13 +21,13 @@ namespace ativ2_ds
 
         // Atributos 
 
-        public string Codigo { get; set; }
+        private string Codigo { get; set; }
 
-        public string Sala { get; set; }
+        private string Sala { get; set; }
 
-        public string Periodo { get; set; }
+        private string Periodo { get; set; }
 
-        public bool Ativa { get; set; }
+        private bool Ativa { get; set; }
 
 
 
@@ -42,7 +43,7 @@ namespace ativ2_ds
 
 
 
-        public bool AtribuirProfessor(Professor)
+        public bool AtribuirProfessor(Professor Professor)
 
         {
 
@@ -52,7 +53,7 @@ namespace ativ2_ds
 
 
 
-        public bool AtribuirAluno(Aluno)
+        public bool AtribuirAluno(Aluno Aluno)
 
         {
 
@@ -63,16 +64,19 @@ namespace ativ2_ds
     }
 
 
+    // Classe Aluno
 
     class Aluno
 
     {
+        // Atributos 
 
-        public string Nome { get; set; }
+        private string Nome { get; set; }
 
-        public int Matricula { get; set; }
+        private int Matricula { get; set; }
 
 
+        // Métodos
 
         public bool DefinirNome(string Nome)
 
@@ -84,7 +88,7 @@ namespace ativ2_ds
 
 
 
-        public string ObterNome()
+        public string ObterNome() 
 
         {
 
@@ -106,19 +110,19 @@ namespace ativ2_ds
 
     }
 
-
+    // Classe Professor
 
     class Professor
 
     {
+        // Atributos 
 
-        public string Nome { get; set; }
+        private string Nome { get; set; }
 
-        public string Titulacao { get; set; }
-
-
+        private string Titulacao { get; set; }
 
 
+        // Métodos
 
         public bool DefinirNome(string Nome)
 
