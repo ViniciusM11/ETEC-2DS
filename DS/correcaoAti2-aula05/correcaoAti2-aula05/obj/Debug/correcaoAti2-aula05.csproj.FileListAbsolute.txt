@@ -1,0 +1,7 @@
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\obj\Debug\correcaoAti2-aula05.csprojAssemblyReference.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\obj\Debug\correcaoAti2-aula05.csproj.CoreCompileInputs.cache
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\bin\Debug\correcaoAti2-aula05.exe.config
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\bin\Debug\correcaoAti2-aula05.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\bin\Debug\correcaoAti2-aula05.pdb
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\obj\Debug\correcaoAti2-aula05.exe
+C:\Users\notur\ETEC\ETEC_2DS_PASTAS\DS\correcaoAti2-aula05\correcaoAti2-aula05\obj\Debug\correcaoAti2-aula05.pdb
