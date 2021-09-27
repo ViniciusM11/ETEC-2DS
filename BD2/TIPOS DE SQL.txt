@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SQL -> Structured Query Language, ou Linguagem de Consulta Estruturada.
+
+CATEGORIAS DA SQL:
+
+DDL - Linguagem de Definição de Dados:
+
+CREATE -> CRIA ESTRUTURAS DE UM BANCO DADOS;
+ALTER -> ALTERA ESTRUTURAS DE UM BANCO DE DADOS;
+DROP -> EXCLUI ESTRUTURAS DE UMA BANCO DE DADOS;
+
+DML - Linguagem de Manipulação de Dados:
+
+INSERT -> INSERE DADOS EM UMA TABELA;
+UPDATE -> ATUALIZA DADOS DE UMA TABELA;
+DELETE -> EXCLUI DADOS DE UMA TABELA;
+
+DQL - Linguagem de Consulta de Dados:
+
+SELECT -> SELECIONA DADOS DE UMA TABELA;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
