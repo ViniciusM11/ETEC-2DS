@@ -1,3 +1,6 @@
+CREATE DATABASE vacina;
+USE vacina;
+
 INSERT INTO tbl_pessoas(nome_pessoa, idade)
 VALUES 
 ('Ana Da Silva','30'),
@@ -38,6 +41,9 @@ SELECT * FROM tbl_pessoas
 WHERE 
 idade BETWEEN 40 AND 50
 ORDER BY idade DESC;
+
+SELECT * FROM tbl_pessoas
+WHERE idade LIKE '_0';
 
 SELECT * FROM tbl_pessoas
 WHERE idade LIKE '7_';
