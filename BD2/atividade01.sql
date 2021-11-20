@@ -15,7 +15,7 @@ CREATE TABLE tbl_produto (
 #Criação da tabela tbl_pedido
 CREATE TABLE tbl_pedido (
 	cod_ped INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    data_ped VARCHAR(10)
+    data_ped VARCHAR(10) 
 );
 
 #Criação da tabela tbl_item_pedido
@@ -34,6 +34,7 @@ ALTER TABLE tbl_item_pedido ADD CONSTRAINT FK_PEDIDO
 FOREIGN KEY (cod_ped)
 REFERENCES tbl_pedido (cod_ped);
 
+#Inserção de dados na tabela tbl_produto
 INSERT INTO tbl_produto(nome, descricao, preco) 
 VALUES ('Borracha', 'Borracha Branca', 0.50); 
 
@@ -64,6 +65,7 @@ VALUES ('Canetão', 'Canetão Preto Permanente', 1.50);
 INSERT INTO tbl_produto(nome, descricao, preco) 
 VALUES ('Giz', 'Caixa de Giz de Cera C/12U', 5.00);
 
+#Inserção de dados na tbl_pedido
 INSERT INTO tbl_pedido(data_ped) 
 VALUES ('03/11/21');
 
@@ -82,7 +84,10 @@ VALUES ('2', '2');
 INSERT INTO tbl_item_pedido(cod_prod, cod_ped) 
 VALUES ('3', '3');
 
+#Selects
 SELECT * FROM tbl_produto;
+SELECT * FROM tbl_pedido;
+SELECT * FROM tbl_item_pedido;
 
 SELECT nome, descricao
 FROM tbl_produto;
@@ -91,6 +96,7 @@ SELECT nome, descricao FROM tbl_produto;
 
 SELECT nome AS 'PRODUTO', descricao AS 'DETALHES' FROM tbl_produto;
 
+#Atualização de dados
 UPDATE tbl_produto SET
 nome = 'Borracha',
 descricao = 'Borracha Rosa',
@@ -109,7 +115,55 @@ descricao = 'Caneta Esferográfica Vermelha de Ponta Fina',
 preco = 1.20
 WHERE cod_prod = 3;
 
+################################################################################################################ 2
+
 SELECT * FROM tbl_produto;
+
+USE loja;
+
+DESCRIBE tbl_produto;
+
+SELECT * FROM tbl_produto
+WHERE
+preco >= 1 AND preco <= 3
+ORDER BY nome ASC;
+
+SELECT * FROM tbl_produto
+WHERE 
+preco BETWEEN 4 AND 7
+ORDER BY nome ASC;
+
+SELECT nome
+FROM tbl_produto
+WHERE nome LIKE '%a'
+ORDER BY nome ASC;
+
+SELECT *
+FROM tbl_produto
+WHERE nome LIKE 'C__%'
+ORDER BY nome DESC;
+
+SELECT 
+data_ped,
+cod_prod
+FROM tbl_pedido
+INNER JOIN tbl_item_pedido
+ORDER BY data_ped DESC;
+
+########################################### DESAFIO ##############################################
+
+SELECT 
+tp.nome AS nome_prod,
+tp.preco AS preco_prod,
+tpe.data_ped AS data_ped
+FROM tbl_item_pedido AS tip
+INNER JOIN tbl_produto AS tp
+ON tip.cod_prod = tp.cod_prod
+INNER JOIN tbl_pedido AS tpe
+ON tip.cod_ped = tpe.cod_ped;
+
+
+
 
 
 
