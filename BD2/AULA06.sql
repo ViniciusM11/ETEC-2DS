@@ -1,5 +1,5 @@
-CREATE DATABASE vacina;
-USE vacina;
+CREATE DATABASE vacinacao;
+USE vacinacao;
 
 INSERT INTO tbl_pessoas(nome_pessoa, idade)
 VALUES 
