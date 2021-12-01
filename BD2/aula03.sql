@@ -40,7 +40,8 @@ WHERE cod_medico = 2;
 UPDATE tbl_medico SET
 email_medico = 'm.silva@gmail.com',
 telefone_medico = '113456782',
-celular_medico = '11962348097';
+celular_medico = '11962348097'
+WHERE cod_medico = 2;
 
 
 

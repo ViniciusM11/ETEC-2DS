@@ -1,15 +1,17 @@
+USE centro_cirurgico;
+
 #INSERÇÃO DE DADOS NA TABELA tbl_especialidade:
-INSERT INTO tbl_especialidade (nome_pessoa_especialidade)
+INSERT INTO tbl_especialidade (nome_especialidade)
 VALUES ('NEUROLOGIA');
 
-INSERT INTO tbl_especialidade (nome_pessoa_especialidade)
+INSERT INTO tbl_especialidade (nome_especialidade)
 VALUES ('ORTOPEDIA');
 
 #INSERÇÃO DE DADOS NA TABELA tbl_especialidade:
-INSERT INTO tbl_especialidade (nome_pessoa_especialidade)
+INSERT INTO tbl_especialidade (nome_especialidade)
 VALUES ('PODOLOGIA');
 
-INSERT INTO tbl_especialidade (nome_pessoa_especialidade)
+INSERT INTO tbl_especialidade (nome_especialidade)
 VALUES ('OFTAMOLOGIA');
 
 SELECT * FROM tbl_especialidade;
